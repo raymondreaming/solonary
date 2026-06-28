@@ -1,15 +1,25 @@
 # solonary
 
-To install dependencies:
+## Install
+
+```bash
+bun add solonary
+```
+
+## Usage
+
+```ts
+import { solonary } from "solonary";
+
+console.log(solonary());
+```
+
+## Development
 
 ```bash
 bun install
 ```
 
-To run:
-
 ```bash
-bun run index.ts
+bun test
 ```
-
-This project was created using `bun init` in bun v1.4.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.

@@ -1,0 +1,38 @@
+{
+  "name": "solonary",
+  "version": "0.0.1",
+  "description": "Placeholder package for solonary.",
+  "type": "module",
+  "module": "./src/index.ts",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondreaming/solonary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raymondreaming/solonary/issues"
+  },
+  "homepage": "https://github.com/raymondreaming/solonary#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
